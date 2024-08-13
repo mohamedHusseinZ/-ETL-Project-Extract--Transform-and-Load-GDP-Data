@@ -1,0 +1,49 @@
+INFO:root:2024-08-13 06:27:46.589747: Starting data extraction.
+INFO:root:2024-08-13 06:29:53.069072: Starting data extraction.
+INFO:root:2024-08-13 06:29:55.606261: Skipping row with unexpected format: <tr class="static-row-header" style="text-align:center;vertical-align:bottom;">
+<th>Estimate</th>
+<th>Year</th>
+<th>Estimate</th>
+<th>Year</th>
+<th>Estimate</th>
+<th>Year
+</th></tr>
+INFO:root:2024-08-13 06:32:03.476685: Starting data extraction.
+INFO:root:2024-08-13 06:32:05.884182: Skipping row with unexpected format: <tr class="static-row-header" style="text-align:center;vertical-align:bottom;">
+<th>Estimate</th>
+<th>Year</th>
+<th>Estimate</th>
+<th>Year</th>
+<th>Estimate</th>
+<th>Year
+</th></tr>
+INFO:root:2024-08-13 06:32:05.885335: Skipping row with non-numeric GDP value: — for country Asia
+INFO:root:2024-08-13 06:32:05.885951: Skipping row with non-numeric GDP value: — for country Americas
+INFO:root:2024-08-13 06:32:05.886302: Skipping row with non-numeric GDP value: — for country Asia
+INFO:root:2024-08-13 06:32:05.887064: Skipping row with non-numeric GDP value: — for country Asia
+INFO:root:2024-08-13 06:32:05.887297: Skipping row with non-numeric GDP value: — for country Asia
+INFO:root:2024-08-13 06:32:05.887660: Skipping row with non-numeric GDP value: — for country Asia
+INFO:root:2024-08-13 06:32:05.887742: Skipping row with non-numeric GDP value: — for country Asia
+INFO:root:2024-08-13 06:32:05.888052: Skipping row with non-numeric GDP value: — for country Oceania
+INFO:root:2024-08-13 06:32:05.888172: Skipping row with non-numeric GDP value: — for country Europe
+INFO:root:2024-08-13 06:32:05.888229: Skipping row with non-numeric GDP value: — for country Americas
+INFO:root:2024-08-13 06:32:05.888345: Skipping row with non-numeric GDP value: — for country Europe
+INFO:root:2024-08-13 06:32:05.888420: Skipping row with non-numeric GDP value: — for country Oceania
+INFO:root:2024-08-13 06:32:05.888475: Skipping row with non-numeric GDP value: — for country Americas
+INFO:root:2024-08-13 06:32:05.888726: Skipping row with non-numeric GDP value: — for country Americas
+INFO:root:2024-08-13 06:32:05.888804: Skipping row with non-numeric GDP value: — for country Americas
+INFO:root:2024-08-13 06:32:05.889073: Skipping row with non-numeric GDP value: — for country Africa
+INFO:root:2024-08-13 06:32:05.889150: Skipping row with non-numeric GDP value: — for country Americas
+INFO:root:2024-08-13 06:32:05.889298: Skipping row with non-numeric GDP value: — for country Americas
+INFO:root:2024-08-13 06:32:05.889374: Skipping row with non-numeric GDP value: — for country Americas
+INFO:root:2024-08-13 06:32:05.889523: Skipping row with non-numeric GDP value: — for country Oceania
+INFO:root:2024-08-13 06:32:05.889594: Skipping row with non-numeric GDP value: — for country Americas
+INFO:root:2024-08-13 06:32:05.889686: Skipping row with non-numeric GDP value: — for country Americas
+INFO:root:2024-08-13 06:32:05.889742: Data extraction completed.
+INFO:root:2024-08-13 06:32:05.889999: Starting to load data into CSV.
+INFO:root:2024-08-13 06:32:05.892391: Data loaded into CSV successfully.
+INFO:root:2024-08-13 06:32:05.892465: Starting to load data into database.
+INFO:root:2024-08-13 06:32:05.919425: Data loaded into database successfully.
+INFO:root:2024-08-13 06:32:05.919609: Running query to find countries with GDP > 100 Billion USD.
+INFO:root:2024-08-13 06:32:05.919975: Query completed. 191 countries found.
+INFO:root:2024-08-13 06:32:05.923832: ETL process completed successfully.
