@@ -11,7 +11,7 @@ logging.basicConfig(filename='etl_project_log.txt', level=logging.INFO)
 def log_message(message):
     logging.info(f"{datetime.now()}: {message}")
 
-# Step 1: Data Extraction
+# Step 1: Data Extraction yes
 def extract_gdp_data(url):
     log_message("Starting data extraction.")
     response = requests.get(url)
