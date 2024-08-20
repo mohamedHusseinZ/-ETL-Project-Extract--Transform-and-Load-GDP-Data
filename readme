@@ -1,16 +1,7 @@
-Here's a step-by-step guide on how to create the Python script etl_project_gdp.py that accomplishes all the tasks you've mentioned.
+ Python skills to extract, transform and load real-world data about the world's largest banks into a database for further processing and querying.
 
-1. Data Extraction
-First, you'll need to extract the GDP data from the given URL. For this, you can use the requests library to download the webpage and BeautifulSoup to parse the HTML and extract the relevant information.
 
-2. Data Transformation
-You'll need to transform the GDP data into "Billion USD" if it's provided in "Million USD." This involves dividing the values by 1,000.
 
-3. Data Loading
-You'll store the data in both a CSV file (Countries_by_GDP.csv) and a SQLite database (World_Economies.db). The pandas library can be used to create the CSV file, and sqlite3 for the database operations.
+multi-national firm has hired you as a data engineer. Your job is to access and process data as per requirements.
 
-4. Running a Query
-Finally, you'll execute a SQL query on the database to display countries with a GDP greater than 100 billion USD.
-
-5. Logging
-Throughout the script, you'll log each step with a timestamp in the etl_project_log.txt file.
+Your boss asked you to compile the list of the top 10 largest banks in the world ranked by market capitalization in billion USD. Further, you need to transform the data and store it in USD, GBP, EUR, and INR per the exchange rate information made available to you as a CSV file. You should save the processed information table locally in a CSV format and as a database table. Managers from different countries will query the database table to extract the list and note the market capitalization value in their own currency.
